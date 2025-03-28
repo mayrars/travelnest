@@ -1,5 +1,14 @@
 .principal-image{
   height: 100vh;
-  width: 100vw;
-  background: url('./images/machupichu.jpg') center center;
+  width: 100%;
+  background: url('./src/assets/images/machupichu.jpg') center center;
+}
+.principal-title{
+  text-shadow: 3px 3px 5px rgba(0,0,0,.5);
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.second-title{
+  font-family: "Tilt Prism", sans-serif;
+  text-shadow: 3px 3px 5px rgba(0,0,0,.5);
 }
