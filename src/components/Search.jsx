@@ -1,6 +1,9 @@
 "use client";
 import { Datepicker, Select, Button } from "flowbite-react";
+import { Countries } from "../api";
 const Search = () => {
+  const countries = Countries();
+  console.log(countries)
   return (
     <>
         <form className="mt-20">
@@ -10,10 +13,12 @@ const Search = () => {
                         <div class="w-full flex-1 mx-2">
                             <div class="my-1 p-1">
                                 <Select id="countries" required>
-                                    <option>United States</option>
-                                    <option>Canada</option>
-                                    <option>France</option>
-                                    <option>Germany</option>
+                                    <option>Choose a country...</option>                                                                        
+                                    {
+                                        countries.countries.map((country) => (
+                                            <option>{country.name}</option>
+                                        ))
+                                    }
                                 </Select>
                             </div>
                         </div>
