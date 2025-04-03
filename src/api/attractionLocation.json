@@ -1,0 +1,166 @@
+{
+    "status": true,
+    "message": "Success",
+    "timestamp": 1698310148925,
+    "data": {
+      "products": [
+        {
+          "id": "eyJwaW5uZWRQcm9kdWN0IjoiUFJKN2RIa0FlWllaIiwidWZpIjoyMDA4ODMyNX0=",
+          "__typename": "AttractionsSearchProductSuggestion",
+          "title": "New York CityPASS",
+          "productId": "PRJ7dHkAeZYZ",
+          "productSlug": "prj7dhkaezyz-new-york-city-pass",
+          "taxonomySlug": "transfers-services",
+          "cityUfi": 20088325,
+          "cityName": "New York",
+          "countryCode": "us"
+        },
+        {
+          "id": "eyJwaW5uZWRQcm9kdWN0IjoiUFJqa0FWUUt4V1hwIiwidWZpIjoyMDA1MDI2NH0=",
+          "__typename": "AttractionsSearchProductSuggestion",
+          "title": "New Orleans Steamboat Cruise",
+          "productId": "PRjkAVQKxWXp",
+          "productSlug": "prjkavqkxwxp-steamboat-harbour-cruise",
+          "taxonomySlug": "tours",
+          "cityUfi": 20050264,
+          "cityName": "New Orleans",
+          "countryCode": "us"
+        },
+        {
+          "id": "eyJwaW5uZWRQcm9kdWN0IjoiUFJpSXlQM2Q0WWNoIiwidWZpIjotMjYwMTg4OX0=",
+          "__typename": "AttractionsSearchProductSuggestion",
+          "title": "Admission to Kew Gardens",
+          "productId": "PRiIyP3d4Ych",
+          "productSlug": "priiyp3d4ych-kew-gardens-admission-ticket",
+          "taxonomySlug": "landmarks",
+          "cityUfi": -2601889,
+          "cityName": "London",
+          "countryCode": "gb"
+        },
+        {
+          "id": "eyJwaW5uZWRQcm9kdWN0IjoiUFJESUI4QVAwbFBjIiwidWZpIjoyMDA1MDI2NH0=",
+          "__typename": "AttractionsSearchProductSuggestion",
+          "title": "New Orleans Jazz Cruise",
+          "productId": "PRDIB8AP0lPc",
+          "productSlug": "prdib8ap0lpc-new-orleans-jazz-and-dinner-cruise",
+          "taxonomySlug": "tours",
+          "cityUfi": 20050264,
+          "cityName": "New Orleans",
+          "countryCode": "us"
+        },
+        {
+          "id": "eyJwaW5uZWRQcm9kdWN0IjoiUFJCSk9mVTN5cFN5IiwidWZpIjoyMDA4ODMyNX0=",
+          "__typename": "AttractionsSearchProductSuggestion",
+          "title": "New York Hop-on, Hop-off Open-top Bus Tour",
+          "productId": "PRBJOfU3ypSy",
+          "productSlug": "prbjofu3ypsy-new-york-hop-on-hop-off-open-top-bus-tour",
+          "taxonomySlug": "tours",
+          "cityUfi": 20088325,
+          "cityName": "New York",
+          "countryCode": "us"
+        },
+        {
+          "id": "eyJwaW5uZWRQcm9kdWN0IjoiUFJEM3drcTdVb2FCIiwidWZpIjoyMDA4ODMyNX0=",
+          "__typename": "AttractionsSearchProductSuggestion",
+          "title": "Washington DC Day Trip from New York",
+          "productId": "PRD3wkq7UoaB",
+          "productSlug": "prd3wkq7uoab-washington-dc-day-trip-from-new-york",
+          "taxonomySlug": "tours",
+          "cityUfi": 20088325,
+          "cityName": "New York",
+          "countryCode": "us"
+        },
+        {
+          "id": "eyJwaW5uZWRQcm9kdWN0IjoiUFIweWp1Qlk1VTIyIiwidWZpIjoyMDA4ODMyNX0=",
+          "__typename": "AttractionsSearchProductSuggestion",
+          "title": "New York Neighborhoods Tour",
+          "productId": "PR0yjuBY5U22",
+          "productSlug": "pr0yjuby5u22-new-york-neighbourhoods-tour",
+          "taxonomySlug": "tours",
+          "cityUfi": 20088325,
+          "cityName": "New York",
+          "countryCode": "us"
+        },
+        {
+          "id": "eyJwaW5uZWRQcm9kdWN0IjoiUFJ1RWlmMlRYbnpzIiwidWZpIjoyMDA1MDI2NH0=",
+          "__typename": "AttractionsSearchProductSuggestion",
+          "title": "New Orleans Hop-on Hop-off Bus Tour",
+          "productId": "PRuEif2TXnzs",
+          "productSlug": "prueif2txnzs-new-orleans-hop-on-hop-off-bus-tour",
+          "taxonomySlug": "tours",
+          "cityUfi": 20050264,
+          "cityName": "New Orleans",
+          "countryCode": "us"
+        },
+        {
+          "id": "eyJwaW5uZWRQcm9kdWN0IjoiUFJDeG5vVko2d241IiwidWZpIjoyMDA4ODMyNX0=",
+          "__typename": "AttractionsSearchProductSuggestion",
+          "title": "New York Explorer Pass",
+          "productId": "PRCxnoVJ6wn5",
+          "productSlug": "prcxnovj6wn5-new-york-explorer-pass",
+          "taxonomySlug": "transfers-services",
+          "cityUfi": 20088325,
+          "cityName": "New York",
+          "countryCode": "us"
+        },
+        {
+          "id": "eyJwaW5uZWRQcm9kdWN0IjoiUFJGWlZDeU44ZHh3IiwidWZpIjoyMDA1MDI2NH0=",
+          "__typename": "AttractionsSearchProductSuggestion",
+          "title": "New Orleans Swamp Tour Boat Ride",
+          "productId": "PRFZVCyN8dxw",
+          "productSlug": "prfzvcyn8dxw-new-orleans-swamp-tour-boat-ride",
+          "taxonomySlug": "tours",
+          "cityUfi": 20050264,
+          "cityName": "New Orleans",
+          "countryCode": "us"
+        }
+      ],
+      "destinations": [
+        {
+          "id": "eyJ1ZmkiOjIwMDg4MzI1fQ==",
+          "__typename": "AttractionsSearchDestinationSuggestion",
+          "ufi": 20088325,
+          "country": "United States",
+          "cityName": "New York",
+          "productCount": 702,
+          "cc1": "us"
+        },
+        {
+          "id": "eyJ1ZmkiOjIwMDUwMjY0fQ==",
+          "__typename": "AttractionsSearchDestinationSuggestion",
+          "ufi": 20050264,
+          "country": "United States",
+          "cityName": "New Orleans",
+          "productCount": 298,
+          "cc1": "us"
+        },
+        {
+          "id": "eyJ1ZmkiOi0yMTA2MTAyfQ==",
+          "__typename": "AttractionsSearchDestinationSuggestion",
+          "ufi": -2106102,
+          "country": "India",
+          "cityName": "New Delhi",
+          "productCount": 181,
+          "cc1": "in"
+        },
+        {
+          "id": "eyJ1ZmkiOi0yNjAzOTY2fQ==",
+          "__typename": "AttractionsSearchDestinationSuggestion",
+          "ufi": -2603966,
+          "country": "United Kingdom",
+          "cityName": "Newcastle upon Tyne",
+          "productCount": 22,
+          "cc1": "gb"
+        },
+        {
+          "id": "eyJ1ZmkiOi0xNTkxMzE2fQ==",
+          "__typename": "AttractionsSearchDestinationSuggestion",
+          "ufi": -1591316,
+          "country": "Australia",
+          "cityName": "Newcastle",
+          "productCount": 14,
+          "cc1": "au"
+        }
+      ]
+    }
+  }
