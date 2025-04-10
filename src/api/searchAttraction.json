@@ -1,0 +1,99 @@
+{
+    "status": true,
+    "message": "Success",
+    "timestamp": 1744026466410,
+    "data": {
+      "__typename": "AttractionsProductSearchResponse",
+      "products": [],
+      "filterStats": {
+        "__typename": "FilterStats",
+        "unfilteredProductCount": 688,
+        "filteredProductCount": 0
+      },
+      "sorters": [
+        {
+          "__typename": "AttractionsSorterOption",
+          "name": "Our top picks",
+          "value": "trending"
+        },
+        {
+          "__typename": "AttractionsSorterOption",
+          "name": "Most popular",
+          "value": "attr_book_score"
+        },
+        {
+          "__typename": "AttractionsSorterOption",
+          "name": "Lowest price",
+          "value": "lowest_price"
+        },
+        {
+          "__typename": "AttractionsSorterOption",
+          "name": "Best reviewed",
+          "value": "highest_weighted_rating"
+        }
+      ],
+      "defaultSorter": {
+        "__typename": "AttractionsSorterOption",
+        "name": "Our top picks",
+        "value": "trending"
+      },
+      "filterOptions": {
+        "__typename": "FilterOptions",
+        "typeFilters": [
+          {
+            "__typename": "FilterOption",
+            "name": "Tours",
+            "tagname": "tours",
+            "productCount": 36
+          },
+          {
+            "__typename": "FilterOption",
+            "name": "Museums, arts & culture",
+            "tagname": "museums-arts-culture",
+            "productCount": 16
+          },
+          {
+            "__typename": "FilterOption",
+            "name": "Entertainment & tickets",
+            "tagname": "entertainment-tickets",
+            "productCount": 15
+          },
+          {
+            "__typename": "FilterOption",
+            "name": "Nature & outdoor",
+            "tagname": "nature-outdoor",
+            "productCount": 12
+          },
+          {
+            "__typename": "FilterOption",
+            "name": "Food & drink",
+            "tagname": "food-drinks",
+            "productCount": 9
+          }
+        ],
+        "labelFilters": [
+          {
+            "__typename": "FilterOption",
+            "name": "Free cancellation",
+            "tagname": "free_cancellation",
+            "productCount": 0
+          }
+        ],
+        "ufiFilters": [
+          {
+            "__typename": "FilterOption",
+            "name": "Mumbai",
+            "tagname": "-2092174",
+            "productCount": 0
+          },
+          {
+            "__typename": "FilterOption",
+            "name": "Andheri",
+            "tagname": "-2088871",
+            "productCount": 0
+          }
+        ],
+        "priceFilters": null
+      }
+    }
+  }

@@ -1,6 +1,6 @@
 "use client";
-import { Datepicker, Select, Button, TabItem, Tabs } from "flowbite-react";
-import { FaTaxi, FaPlane, FaHouseUser } from "react-icons/fa";
+import { Datepicker, Select, Button, TabItem, Tabs, TextInput } from "flowbite-react";
+import { FaTaxi, FaPlane, FaHotel } from "react-icons/fa";
 import { MdAttractions } from "react-icons/md";
 import { Countries } from "../api";
 const Search = () => {
@@ -52,14 +52,83 @@ const Search = () => {
                     </form>
                 </div>
             </TabItem>
-            <TabItem title="Housing" className="py-0" icon={FaHouseUser}>
-                <div class="p-6 bg-white text-medium text-black rounded-lg w-full">
-                    <p className="text-black">Content 2</p>
+            <TabItem title="Hotels" className="py-0" icon={FaHotel}>
+                <div class="p-6 bg-transparent text-medium text-black rounded-lg w-full">
+                    <form className="">
+                        <div className="grid grid-cols-6 gap-4 grid-rows-2">
+                            <div className="col-span-5">
+                                <div className="">
+                                    <div className="flex flex-col md:flex-row pb-4 mb-0">
+                                        <div className="flex-1">
+                                            <div className="flex flex-col md:flex-row">
+                                                <div className="w-full flex-1 mx-2">
+                                                    <div className="my-1 p-1">
+                                                        <Select id="countries" required>
+                                                            <option>Choose a country...</option>                                                                        
+                                                            {
+                                                                countries.countries.map((country) => (
+                                                                    <option key={`${country.name}`}>{country.name}</option>
+                                                                ))
+                                                            }
+                                                        </Select>
+                                                    </div>
+                                                </div>
+                                                <div className="w-full flex-1 mx-2">        
+                                                    <div className="my-1 p-1">
+                                                        <Datepicker title="Arrival date" language="en-US"/>
+                                                    </div>
+                                                </div>
+                                                <div className="w-full flex-1 mx-2">        
+                                                    <div className="my-1 p-1">
+                                                        <Datepicker title="Departure date" language="en-US"/>
+                                                    </div>
+                                                </div>
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="">
+                                    <div class="flex flex-col md:flex-row pb-4 mb-0">
+                                        <div className="w-full flex-1 mx-2">        
+                                            <div className="my-1 p-1">
+                                                <TextInput id="adults" placeholder="Adults" required />
+                                            </div>
+                                        </div>
+                                        <div className="w-full flex-1 mx-2">        
+                                            <div className="my-1 p-1">
+                                                <TextInput id="childrens" placeholder="Childrens" required />
+                                            </div>
+                                        </div>
+                                        <div className="w-full flex-1 mx-2">        
+                                            <div className="my-1 p-1">
+                                                <TextInput id="rooms" placeholder="Rooms" required />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="flex justify-center items-center">
+                                <Button className="bg-gradient-to-br from-purple-600 to-blue-500 text-white hover:bg-gradient-to-bl focus:ring-blue-300 dark:focus:ring-blue-800">
+                                    Search
+                                </Button>
+                            </div>
+                        </div>
+                    </form>
                 </div>
             </TabItem>
             <TabItem title="Attractions" className="py-0" icon={MdAttractions}>
-                <div class="p-6 bg-white text-medium text-black rounded-lg w-full">
-                    <p className="text-black">Content 3</p>
+                <div class="p-6 bg-transparent text-medium text-black rounded-lg w-full">
+                    <form>
+                        <div className="flex flex-col md:flex-row">
+                            <div className="w-full flex-1 mx-2">
+                                <Datepicker title="Start Date" />
+                            </div>
+                            <div className="w-full flex-1 mx-2">
+                                <Datepicker title="End date"/>
+                            </div>
+                        </div>
+                    </form>
                 </div>
             </TabItem>
             <TabItem title="Taxi" className="py-0" icon={FaTaxi}>
