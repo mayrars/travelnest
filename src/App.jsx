@@ -14,7 +14,7 @@ function App() {
               <h2 className="mb-8 text-lg font-normal text-white md:text-5xl lg:text-9xl second-title">Travel hub</h2>
               <h3 className="mb-8 text-lg font-normal text-white md:text-5xl lg:text-5xl principal-title">Plan your trips with us</h3>
           </div>
-          <div className="px-2 mx-auto max-w-screen-xl text-center py-12 lg:py-5">
+          <div className="px-2 mx-auto max-w-[80%] text-center py-12 lg:py-5">
               <Search />
           </div>
       </section>
