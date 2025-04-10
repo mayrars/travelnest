@@ -1,0 +1,198 @@
+{
+    "status": true,
+    "message": "Success",
+    "timestamp": 1744114374906,
+    "data": [
+      {
+        "id": "MEX.CITY",
+        "type": "CITY",
+        "name": "Mexico City",
+        "code": "MEX",
+        "regionName": "Mexico DF",
+        "country": "MX",
+        "countryName": "Mexico",
+        "photoUri": "https://q-xx.bstatic.com/xdata/images/city/square150/682570.jpg?k=88217ed4855a6c17c8291f0a6e56a21b24bf334a8bb6ec350429f577ce9ae489&o="
+      },
+      {
+        "id": "MEX.AIRPORT",
+        "type": "AIRPORT",
+        "name": "Benito Juarez International Airport",
+        "code": "MEX",
+        "city": "MEX",
+        "cityName": "Mexico City",
+        "regionName": "Mexico DF",
+        "country": "MX",
+        "countryName": "Mexico",
+        "countryNameShort": "Mexico",
+        "photoUri": "https://q-xx.bstatic.com/xdata/images/city/square150/682570.jpg?k=88217ed4855a6c17c8291f0a6e56a21b24bf334a8bb6ec350429f577ce9ae489&o=",
+        "distanceToCity": {
+          "value": 5.172793952996098,
+          "unit": "km"
+        },
+        "parent": "MEX"
+      },
+      {
+        "id": "NLU.AIRPORT",
+        "type": "AIRPORT",
+        "name": "Felipe Ángeles International Airport",
+        "code": "NLU",
+        "city": "MEX",
+        "cityName": "Mexico City",
+        "regionName": "Mexico DF",
+        "country": "MX",
+        "countryName": "Mexico",
+        "countryNameShort": "Mexico",
+        "photoUri": "https://q-xx.bstatic.com/xdata/images/city/square150/682570.jpg?k=88217ed4855a6c17c8291f0a6e56a21b24bf334a8bb6ec350429f577ce9ae489&o=",
+        "distanceToCity": {
+          "value": 37.0683691942212,
+          "unit": "km"
+        },
+        "parent": "MEX"
+      },
+      {
+        "id": "CUN.AIRPORT",
+        "type": "AIRPORT",
+        "name": "Cancún International Airport",
+        "code": "CUN",
+        "city": "CUN",
+        "cityName": "Cancún",
+        "regionName": "Quintana Roo",
+        "country": "MX",
+        "countryName": "Mexico",
+        "countryNameShort": "Mexico",
+        "photoUri": "https://q-xx.bstatic.com/xdata/images/city/square150/682559.jpg?k=eba0a86971de163610eaab458cd7c2483f59ff8f350d2f63eceed77d21afbed3&o=",
+        "distanceToCity": {
+          "value": 14.188515271301814,
+          "unit": "km"
+        },
+        "parent": "CUN"
+      },
+      {
+        "id": "GDL.AIRPORT",
+        "type": "AIRPORT",
+        "name": "Guadalajara Airport",
+        "code": "GDL",
+        "city": "GDL",
+        "cityName": "Guadalajara",
+        "regionName": "Jalisco",
+        "country": "MX",
+        "countryName": "Mexico",
+        "countryNameShort": "Mexico",
+        "photoUri": "https://q-xx.bstatic.com/xdata/images/city/square150/682594.jpg?k=9571cf0f6d188e30e921f7027ffdf15c1bf51b060517d494097e2d37cf410ac7&o=",
+        "distanceToCity": {
+          "value": 17.42505983316017,
+          "unit": "km"
+        },
+        "parent": "GDL"
+      },
+      {
+        "id": "MTY.AIRPORT",
+        "type": "AIRPORT",
+        "name": "Monterrey International Airport",
+        "code": "MTY",
+        "city": "MTY",
+        "cityName": "Monterrey",
+        "regionName": "Nuevo León",
+        "country": "MX",
+        "countryName": "Mexico",
+        "countryNameShort": "Mexico",
+        "photoUri": "https://q-xx.bstatic.com/static/img/plane-100.jpg",
+        "distanceToCity": {
+          "value": 22.164948415034125,
+          "unit": "km"
+        },
+        "parent": "MTY"
+      },
+      {
+        "id": "TIJ.AIRPORT",
+        "type": "AIRPORT",
+        "name": "Tijuana International Airport",
+        "code": "TIJ",
+        "city": "TIJ",
+        "cityName": "Tijuana",
+        "regionName": "Baja California",
+        "country": "MX",
+        "countryName": "Mexico",
+        "countryNameShort": "Mexico",
+        "photoUri": "https://q-xx.bstatic.com/xdata/images/city/square150/682766.jpg?k=40e26fe245ec207a5278fa73422df36280548b52c2efe13436ebbb248a430ca7&o=",
+        "distanceToCity": {
+          "value": 6.405005339034057,
+          "unit": "km"
+        },
+        "parent": "TIJ"
+      },
+      {
+        "id": "ABQ.AIRPORT",
+        "type": "AIRPORT",
+        "name": "Albuquerque International Sunport Airport",
+        "code": "ABQ",
+        "city": "ABQ",
+        "cityName": "Albuquerque",
+        "region": "NM",
+        "regionName": "New Mexico",
+        "country": "US",
+        "countryName": "United States",
+        "countryNameShort": "US",
+        "photoUri": "https://q-xx.bstatic.com/xdata/images/city/square150/689954.jpg?k=a2a7cf530e974ed3cb0aa4febbc24e2ea50be4c7c34e0b0acb9a9bd07731ae85&o=",
+        "distanceToCity": {
+          "value": 6.253612039687976,
+          "unit": "km"
+        },
+        "parent": "ABQ"
+      },
+      {
+        "id": "PVR.AIRPORT",
+        "type": "AIRPORT",
+        "name": "Lic. Gustavo Diaz Ordaz Airport",
+        "code": "PVR",
+        "city": "PVR",
+        "cityName": "Puerto Vallarta",
+        "regionName": "Jalisco",
+        "country": "MX",
+        "countryName": "Mexico",
+        "countryNameShort": "Mexico",
+        "photoUri": "https://q-xx.bstatic.com/xdata/images/city/square150/682699.jpg?k=85342fe0dc72f0958d4e4ddeceeddfa0d385b29cd9c71eaea15965bd771e694a&o=",
+        "distanceToCity": {
+          "value": 9.242831860902976,
+          "unit": "km"
+        },
+        "parent": "PVR"
+      },
+      {
+        "id": "SJD.AIRPORT",
+        "type": "AIRPORT",
+        "name": "Los Cabos International Airport",
+        "code": "SJD",
+        "city": "SJD",
+        "cityName": "San José del Cabo",
+        "regionName": "Baja California Sur",
+        "country": "MX",
+        "countryName": "Mexico",
+        "countryNameShort": "Mexico",
+        "photoUri": "https://q-xx.bstatic.com/xdata/images/city/square150/984216.jpg?k=2ed5f0c2752f05fb308f3096d71fe0bde092fa76117b93b70f4312c9a1501b1b&o=",
+        "distanceToCity": {
+          "value": 11.957773062490856,
+          "unit": "km"
+        },
+        "parent": "SJD"
+      },
+      {
+        "id": "BJX.AIRPORT",
+        "type": "AIRPORT",
+        "name": "Bajio International Airport",
+        "code": "BJX",
+        "city": "BJX",
+        "cityName": "León",
+        "regionName": "Guanajuato",
+        "country": "MX",
+        "countryName": "Mexico",
+        "countryNameShort": "Mexico",
+        "photoUri": "https://q-xx.bstatic.com/xdata/images/city/square150/682625.jpg?k=002270825713fc3471fc23367d2b09d765ef7628d4f5f387772a4739e9cd958d&o=",
+        "distanceToCity": {
+          "value": 25.965651126733675,
+          "unit": "km"
+        },
+        "parent": "BJX"
+      }
+    ]
+  }
